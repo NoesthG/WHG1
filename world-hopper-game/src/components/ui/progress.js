@@ -1,0 +1,1 @@
+export const Progress = ({ value, className }) => <div className={`${className} bg-gray-300 rounded`}><div style={{ width: `${value}%` }} className="bg-green-500 h-full rounded"></div></div>;
